@@ -1,0 +1,311 @@
+{
+  "variables": [],
+  "info": {
+    "name": "ETNetApp Lifestyle",
+    "_postman_id": "df9a8bd7-fa68-2343-69e9-3ce2c8ee1d95",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "38b9516b-e76d-9cb2-a020-cef4ee827374",
+      "name": "L1 Lifestyle Menu",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=menu",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bec5c66a-0942-8c97-febb-52dbe6f2c383",
+      "name": "L2 Lifestyle Latest Articles",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=latest&start=0&limit=5",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "84750701-3079-23d9-4f19-a9c0564c2bc0",
+      "name": "L3 Lifestyle Hot 10",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=hot10",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a9d53167-725b-2163-a7a8-3769551834df",
+      "name": "L4 Lifestyle Hot 30",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=hot30",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "4af032cc-1e9d-499e-8399-b32ab93355ee",
+      "name": "L5 Lifestyle Focus Today",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=focustoday",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f4e4db19-707d-4424-7729-a046a0bf88d0",
+      "name": "L6 Lifestyle Section Article List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=sec&id=217|222",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "cb9715ad-2f6e-99d8-880b-d18040d34cb2",
+      "name": "L7 Lifestyle Section Category List (below v.4.1.5)",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=sec_list",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b94f8c26-d9b4-c6ec-3ab6-5feeb49fc190",
+      "name": "L7 Lifestyle Section Category List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=sec_list&version=4.1.5",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2167241a-00b2-99b1-9167-b88327be426f",
+      "name": "L8 Lifestyle Latest Article By Cat ID",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=latest_bycatids&id=232|259",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0821e0e5-55ef-31da-7db8-cb80ded9c750",
+      "name": "L9 Lifestyle Category Article LIst",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=cat&id=232&start=0&limit=2",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5d69a29a-8315-0449-b02f-7e2b062aebc0",
+      "name": "L10 Lifestyle Catinfo",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=catinfo",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "23dcc24e-a964-e808-f4f1-2b2ca766cb8d",
+      "name": "L11 Lifestyle Article Detail",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=art&id=42551",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "52419c93-7561-0a3a-a9c2-e341f911cc49",
+      "name": "L11 Lifestyle Article Detail No Desc",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=art&id=42551&nodesc=Y",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "fe37948a-7e62-2ecd-4a8a-fbde3e45c85a",
+      "name": "L13 Lifestyle Editors",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=editors",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f8900bf7-ffef-bc9a-16d5-07123ec54bc3",
+      "name": "L14 Lifestyle Authors",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=author",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "04f7454e-fa01-6099-161b-cdef8ae72f99",
+      "name": "L15 Lifestyle Latest Comments",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=latest_comment&start=0&limit=5",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "476fbe40-4855-801a-30dc-0661fe0f46a4",
+      "name": "L16 Lifestyle Article Comment List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=comment_list&id=42375",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e2a99914-b935-1c7a-518a-184b253234fa",
+      "name": "L16 Lifestyle Voting Comment List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=comment_list&id=728&vote=Y",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f4221035-dc3d-b899-bc1d-524417b17c29",
+      "name": "L17 Lifestyle Editor Picked Voting",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=editor_picked_voting",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "831e4e54-5dff-8c09-7257-5fb7ffbfc253",
+      "name": "L18 Lifestyle Voting List",
+      "request": {
+        "url": "http://www.etnet.com.hk/apps/etnetapp/api/get_columns_data.php?type=voting_list&start=0&limit=5",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c64825f7-54df-730f-92de-6c1f224c5626",
+      "name": "L19 Lifestyle Voting Detail",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=voting_detail&id=746",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5bde4406-0857-452e-daba-504792dd59d3",
+      "name": "L20 Lifestyle Voting Result",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=voting_result&id=746",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "770a9293-1822-2435-544a-d5be5f3f06d2",
+      "name": "L22 Editor Article",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=editor_article&id=ceciliawang&version=4.1.5&start=0&limit=5",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "72e56b0c-1c90-3ac3-397c-b86622896eb3",
+      "name": "L23 Full list of Tag",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=tag",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "44f62646-e585-f5d9-c1da-15220e0308e3",
+      "name": "L24 Tag-Article List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_columns_data.php?type=tag&id=4892|4880&start=0&limit=2",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}
