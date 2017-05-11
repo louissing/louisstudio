@@ -1,0 +1,239 @@
+{
+  "variables": [],
+  "info": {
+    "name": "ENetApp Diva",
+    "_postman_id": "8376da67-e6a3-b50c-ab54-ec6c5e9056a0",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "faa40082-5258-97a3-3095-07250b9e43f2",
+      "name": "D1 Diva Menu",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=menu&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1d0cf6ba-1a35-ebbb-afcf-e9cd08ebbeb5",
+      "name": "D2 Diva Latest Articles",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=latest&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e48977e1-0175-b359-df65-12a7bc2000cb",
+      "name": "D3 Diva Hot10",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=hot30&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c3639933-59b7-a7d6-a934-037aff1eacdf",
+      "name": "D4 Diva Hot30",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=hot30&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9a20b8de-bdf9-f514-5360-e7ec3688e8e8",
+      "name": "D5 Diva highlight_articles",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=highlight_article&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d493a394-a52a-2bd1-51d7-7c4812688c31",
+      "name": "D6 Diva highlight_video",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=highlight_video&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b1e56cbe-53f0-e170-7401-490a7df768e6",
+      "name": "D7 Section Article List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=sec&id=beauty&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dbab0563-a03c-d73c-7cda-97a9793f9858",
+      "name": "D8 Section Category List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=sec_list&id=beauty|fashion&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dfbbb885-875e-2a33-31c5-2ae3595bf98c",
+      "name": "D9 Video List",
+      "request": {
+        "url": "http://www.etnet.com.hk/apps/etnetapp/api/get_diva_data.php?type=video_list&version=4.1.7",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1a1961e7-6bf0-2f99-eb45-d93402c54066",
+      "name": "D10 Latest Article By Cat ID",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=latest_bycatids&id=3&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a178ddfc-c2cb-ad36-e174-443f07bdcba8",
+      "name": "D11 Category Article List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=cat&id=beautyvideo&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0bd9b9ba-48dc-d5e4-f0aa-8ab21b7bc944",
+      "name": "D12 Catinfo",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=catinfo&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1fb69ff4-6190-99ad-8894-a2e8c6f4a2ae",
+      "name": "D13 Article Detail",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=art&id=33637&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e5fe2496-317b-373a-0e0d-08d8b0d9b6e6",
+      "name": "D14 Video Detail",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=video&id=700&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "85a65c98-73d1-fb56-a019-63542a640e53",
+      "name": "D16 Editors",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=editors&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "98a4734f-635e-c925-d601-95d4813090ed",
+      "name": "D17 Latest Comment",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=latest_comment&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "afc4d3c3-a5dc-127c-ffa4-a613918b4f5f",
+      "name": "D18 Article Comment List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=comment_list&id=33070&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1a4331b6-1a38-90e2-12f1-246eb7a17659",
+      "name": "D18 Video Comment List",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=comment_list&id=700&video=Y&version=4.1.4",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6683d91e-3df8-7f5e-6e2d-301deb12e712",
+      "name": "D19 Editor Article",
+      "request": {
+        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=editor_article&id=katrinayee&version=4.1.5&start=0&limit=10",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}
