@@ -1,0 +1,35 @@
+{
+  "variables": [],
+  "info": {
+    "name": "TQ",
+    "_postman_id": "b7744f3c-d1cc-e8a5-5b0f-814ca720b84d",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "0219c626-0c40-24b0-2516-d4e07726cafd",
+      "name": "Topic News Menu",
+      "request": {
+        "url": "http://202.62.215.11/apps/tq/api/get_data.php?type=topic_menu",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bad61c12-e8f0-0779-a7cd-fed455fc9202",
+      "name": "Topic News Cat list by Alias",
+      "request": {
+        "url": "http://202.62.215.11/apps/tq/api/get_data.php?type=topic_catlist&alias=forex",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}
