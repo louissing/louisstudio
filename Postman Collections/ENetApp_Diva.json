@@ -23,7 +23,38 @@
       "_postman_id": "1d0cf6ba-1a35-ebbb-afcf-e9cd08ebbeb5",
       "name": "D2 Diva Latest Articles",
       "request": {
-        "url": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=latest&version=4.1.4",
+        "url": {
+          "raw": "http://10.169.1.15/apps/etnetapp/api/get_diva_data.php?type=latest&version=4.2",
+          "protocol": "http",
+          "auth": {},
+          "host": [
+            "10",
+            "169",
+            "1",
+            "15"
+          ],
+          "path": [
+            "apps",
+            "etnetapp",
+            "api",
+            "get_diva_data.php"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "latest",
+              "equals": true,
+              "description": ""
+            },
+            {
+              "key": "version",
+              "value": "4.2",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
         "method": "GET",
         "header": [],
         "body": {},
