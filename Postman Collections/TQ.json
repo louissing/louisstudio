@@ -1,5 +1,4 @@
 {
-  "variables": [],
   "info": {
     "name": "MQ/ETNetApp/TQ Finance API",
     "_postman_id": "b7744f3c-d1cc-e8a5-5b0f-814ca720b84d",
@@ -11,10 +10,32 @@
       "_postman_id": "0219c626-0c40-24b0-2516-d4e07726cafd",
       "name": "Topic News Menu",
       "request": {
-        "url": "http://202.62.215.11/apps/tq/api/get_data.php?type=topic_menu",
         "method": "GET",
         "header": [],
         "body": {},
+        "url": {
+          "raw": "http://10.169.1.15/apps/tq/api/get_data.php?type=topic_menu",
+          "protocol": "http",
+          "host": [
+            "10",
+            "169",
+            "1",
+            "15"
+          ],
+          "path": [
+            "apps",
+            "tq",
+            "api",
+            "get_data.php"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "topic_menu",
+              "equals": true
+            }
+          ]
+        },
         "description": ""
       },
       "response": []
@@ -23,10 +44,35 @@
       "_postman_id": "bad61c12-e8f0-0779-a7cd-fed455fc9202",
       "name": "Topic News Cat list by Alias",
       "request": {
-        "url": "http://202.62.215.11/apps/tq/api/get_data.php?type=topic_catlist&alias=forex",
         "method": "GET",
         "header": [],
         "body": {},
+        "url": {
+          "raw": "http://202.62.215.11/apps/tq/api/get_data.php?type=topic_catlist&alias=forex",
+          "protocol": "http",
+          "host": [
+            "202",
+            "62",
+            "215",
+            "11"
+          ],
+          "path": [
+            "apps",
+            "tq",
+            "api",
+            "get_data.php"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "topic_catlist"
+            },
+            {
+              "key": "alias",
+              "value": "forex"
+            }
+          ]
+        },
         "description": ""
       },
       "response": []
@@ -35,10 +81,12 @@
       "_postman_id": "7a39251a-e994-88ec-bbac-ad58fa8a37d1",
       "name": "Topic News Detail",
       "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
         "url": {
           "raw": "http://10.169.1.15/apps/tq/api/get_data.php?type=topic_detail&id=7508",
           "protocol": "http",
-          "auth": {},
           "host": [
             "10",
             "169",
@@ -55,21 +103,15 @@
             {
               "key": "type",
               "value": "topic_detail",
-              "equals": true,
-              "description": ""
+              "equals": true
             },
             {
               "key": "id",
               "value": "7508",
-              "equals": true,
-              "description": ""
+              "equals": true
             }
-          ],
-          "variable": []
+          ]
         },
-        "method": "GET",
-        "header": [],
-        "body": {},
         "description": ""
       },
       "response": []
